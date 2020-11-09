@@ -21,7 +21,7 @@ import com.bcp.service.GradoService;
 @RequestMapping("/api/rest/grado/")
 public class GradoController {
 	
-	
+	// inicio
 	/*@GetMapping
 	public ResponseEntity<String> mensaje(){
 		String mensaje = "Hola heroku";
