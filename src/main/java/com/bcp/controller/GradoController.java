@@ -22,13 +22,13 @@ import com.bcp.service.GradoService;
 public class GradoController {
 	
 	
-	@GetMapping
+	/*@GetMapping
 	public ResponseEntity<String> mensaje(){
 		String mensaje = "Hola heroku";
 		return ResponseEntity.ok(mensaje);
-	}
+	}*/
 	
-	/*@Autowired
+	@Autowired
 	private GradoService service;
 	
 	@GetMapping
@@ -56,7 +56,6 @@ public class GradoController {
 			return ResponseEntity.notFound().build();
 		}
 	}
-	*/
 	
 }
 
